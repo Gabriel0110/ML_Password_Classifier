@@ -1,6 +1,6 @@
 import random
 '''
-weak = "C:\\Users\\g1jgt01\\.spyder-py3\\PW_Predictor\\password_files\\weak\\10-million-password-list-top-1000000.txt"
+weak = "10-million-password-list-top-1000000.txt"
 
 weak_list = []
 
@@ -21,14 +21,14 @@ final_weak = []
 for word in new_weak:
     final_weak.append(word + ",1")
 
-with open("C:\\Users\\g1jgt01\\.spyder-py3\\PW_Predictor\\weak_master_list.txt", 'a+') as file:
+with open("weak_master_list.txt", 'a+') as file:
     for word in final_weak:
         file.write(word + "\n")
     file.close()
  '''   
     
     
-strong = "C:\\Users\\g1jgt01\\.spyder-py3\\PW_Predictor\\strong_master_list.txt"
+strong = "strong_master_list.txt"
 
 strong_list = []
 
